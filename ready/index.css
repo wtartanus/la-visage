@@ -1,0 +1,312 @@
+/*************************
+NAVIGATION
+*************************/
+
+
+nav a {
+ text-decoration: none;
+ color: black;
+}
+
+nav ul {
+ text-align: center;
+}
+
+nav li {
+ display: block;
+ font-family: 'Tangerine', cursive;
+ font-size: 3em;
+ margin-left: 20px;
+}
+
+ #welcame_page  img {
+  max-width: 90%;
+ }
+ 
+ #welcame_page  p {
+  display: none;
+ }
+ 
+ 
+ /*************************
+ABOUT
+*************************/
+
+
+
+#about_us img {
+ max-width: 40%;
+ margin: 15px;
+}
+
+#anna_par {
+ position: relative;
+ max-width: 60%;
+}
+
+
+ /*************************
+GALLERY
+*************************/
+
+#photos {
+  max-width: 90%;
+  margin: 5px;
+ }
+ 
+ #photos  img{
+  max-width: 40%;
+  max-height: 95%;
+ }
+
+#bigger_size {
+ display: none;
+}
+ 
+ 
+#services img {
+ max-width: 90%;
+}
+
+/*************************
+Footer
+*************************/
+
+footer {
+ text-align: center;
+ background-color: gray;
+ padding: 20px;
+}
+
+
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 580px) {
+
+ nav li {
+  display: inline-block;
+ }
+ 
+ #intro > p {
+ max-width: 70%;
+ margin-left: 75px;
+ line-height: 1.7em;
+ font-family: 'Courgette', cursive;
+ padding: 10px;
+ background-color: gray;
+ box-shadow: 2px 2px 5px;
+}
+
+ 
+ #anna_par {
+  float: right;
+  position: relative;
+  top: 100px;
+ }
+
+ #girl_2 {
+ position: relative;
+ left: 68%;
+ }
+ 
+#girl2_par {
+ max-width: 60%;
+ position: relative;
+ top: -270px;
+ left: 8%;
+}
+
+ #photos {
+  max-width: 80%;
+  margin: 5px;
+ }
+ 
+ 
+}
+
+@media only screen and (min-width: 1140px) {
+ nav {
+  background-image: url(image/line.gif);
+  background-position: 50px -65px;
+  background-repeat: no-repeat;
+ }
+ 
+ #welcame_page {
+  height: 700px;
+  background-image: url(image/background.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+ 
+ #welcame_page  img {
+  position: relative;
+  top: 350px;
+  left: 450px;
+ }
+ 
+ #welcame_page  p{
+  display: inherit;
+  position: relative;
+  top: 290px;
+  left: 600px;
+  width: 400px;
+ }
+ 
+ #anna_par {
+  left: -125px;
+  margin-right: 95px;
+ }
+ 
+ #girl_2 {
+ top: 100px;
+ }
+ 
+ #girl2_par {
+  position: relative;
+  top: -140px;
+  left: 300px;
+ }
+ 
+ #gallery {
+  margin: 50px 0;
+ }
+ 
+ #photos {
+  max-width: 50%;
+  margin-left: 50px;
+  padding: 5px;
+ }
+ 
+ #bigger_size {
+   display: inherit;
+   max-height: 500px;
+   margin-right: 120px;
+   position: relative;
+   top: -490px;
+   float: right;
+ }
+ 
+ #bigger_size > img {
+   max-height: 550px;
+   max-width: 500px;
+   box-shadow: -8px -8px 6px -6px black;
+ }
+ 
+ #services {
+   padding: 5px;
+   background-image: url(image/lv.gif);
+   background-repeat: no-repeat;
+   background-position: 400px 190px;
+ }
+ 
+ 
+ #strzyzenia, #koloryzacje, #zabiegi {
+  padding: 10px;
+  max-width: 40%;
+ }
+ 
+ #zabiegi {
+  float: right;
+  position: relative;
+  top: -570px;
+  left: -170px;
+ }
+ 
+ #services img {
+  position: relative;
+  left: 800px;
+  top: -350px;
+ }
+ 
+ #services > p {
+   position: relative;
+   left: 600px;
+   top: -350px;
+   text-align: center;
+   max-width: 50%;
+ }
+ 
+ #contact {
+  position: relative;
+  top: -250px;
+  padding-top: 10px;
+ }
+ 
+ #contact > h4 {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;
+  margin-left: 30%;
+  position: relative;
+  top: 50px;
+ }
+ 
+  #contact > h3 {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;
+  margin-left: 30%;
+  position: relative;
+  top: 50px;
+ }
+ 
+ #contact  ul {
+  list-style: none;
+  position: relative;
+  top: -270px;
+  left: 10%;
+  box-shadow: 1px 1px 5px;
+  max-width: 25%;
+  padding: 70px;
+ }
+ 
+ #contact li {
+  margin-top: 25px;
+ }
+ 
+ footer {
+  position: relative;
+ }
+ 
+#wrapper {
+ max-height: 1700px;
+}
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************
+Clearfix
+*************************/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
