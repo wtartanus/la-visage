@@ -278,7 +278,105 @@ Media Queries
 }
 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.main-container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.container {
+  width: 600px;
+  position: relative;
+}
+
+.gallery {
+  width: 600px;
+  position: absolute;
+}
+
+.gallery img {
+  float: left;
+  margin: 1px;
+}
+
+
+.container {
+  float: left;
+}
+
+#display_photo {
+  float: right;
+}
+
+#second,
+#third {
+  display: none;
+}
+
+
+#display_photo,
+#display_photo img {
+  width: 450px;
+  margin-left: 10px;
+}
+
+#left-arrow,
+#right-arrow {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 170px;
+}
+
+#right-arrow {
+  right: 3%;
+}
+
+#dots {
+  opacity: 0;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border: 3px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+}
+
+.dot:hover {
+  background-color: rgba(0,0,0,.7);;
+}
+
+.dot-position-first {
+  left: 46%;
+}
+
+.dot-position-second {
+  left: 49%;
+}
+
+.dot-position-third {
+  left: 52%;
+}
+
+
+
+
+
+.clearfix::after  {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
